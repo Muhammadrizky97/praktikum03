@@ -1,27 +1,27 @@
-# praktikum03
+# praktikum3
 Deskripsi latihan1 (Program menampikan bilangan terbesar dari sejumlah bilangan acak yang di inputkan)
 Algoritma menentukan_bilangan_terbesar
 {mencari bilangan terbesar dari 3 bilangan yang diinput}
 Deklarasi
 Integer a,b,c,terbesar;
 Deskripsi
-Write(“Masukkan Bilangan Pertama : ”);
+Write(â€œMasukkan Bilangan Pertama : â€);
 Read(a);
-Write(“Masukkan Bilangan Kedua : ”);
+Write(â€œMasukkan Bilangan Kedua : â€);
 Read(b);
-Write(“Masukkan Bilangan Ketiga : ”);
+Write(â€œMasukkan Bilangan Ketiga : â€);
 Read(c);
 if (a>b) then
 if (a>c) 
-then write(“Terbesar = ”,a);
-else wrie(“Terbesar = ”,c);
+then write(â€œTerbesar = â€,a);
+else wrie(â€œTerbesar = â€,c);
 
 endif
 else if (b>c)
                         
-then write(“Terbesar = ”,b);
+then write(â€œTerbesar = â€,b);
                        
-else write(“Terbesar = ”,c);
+else write(â€œTerbesar = â€,c);
 endif
             
 endif
